@@ -26,7 +26,7 @@ and attributes handling:
 - Handles comments in HTML code.
 - Handles layout and tabs for nicer HTML code.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa PEAR::HTML_Common dostarcza metody do wy¶wietlania kodu html
