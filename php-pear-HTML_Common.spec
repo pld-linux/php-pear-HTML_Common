@@ -23,6 +23,11 @@ and attributes handling.
 - Handles layout and tabs for nicer HTML code.
 
 %description -l pl
+Klasa PEAR::HTML_Common dostarcza metody do wy¶wietlania kodu html
+oraz obs³ugê atrybutów.
+- metody do ustawiania, usuwania, aktualizacji atrybutów html.
+- manipulacje komentarzami w kodzie HTML.
+- manipulacje wygl±dem oraz tabsami dla ³adniejszego wygl±du kodu HTML.
 
 %prep
 %setup -q -c
