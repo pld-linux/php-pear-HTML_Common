@@ -6,7 +6,7 @@ Summary:	%{_class}_%{_subclass} - PEAR::HTML_Common is a base class for other HT
 Summary(pl):	%{_class}_%{_subclass} - PEAR::HTML_Common jest podstawow± klas± dla innych klas HTML
 Name:		php-pear-%{_pearname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -44,5 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{php_pear_dir}/%{_class}
 %{php_pear_dir}/%{_class}/*.php
