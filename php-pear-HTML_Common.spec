@@ -1,7 +1,9 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	Common
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - PEAR::HTML_Common is a base class for other HTML classes
 Summary(pl):	%{_pearname} - PEAR::HTML_Common jest podstawow± klas± dla innych klas HTML
 Name:		php-pear-%{_pearname}
@@ -24,12 +26,16 @@ and attributes handling:
 - Handles comments in HTML code.
 - Handles layout and tabs for nicer HTML code.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Klasa PEAR::HTML_Common dostarcza metody do wy¶wietlania kodu html
 oraz obs³ugê atrybutów.
 - Zawiera metody do ustawiania, usuwania, aktualizacji atrybutów HTML.
 - Obs³uguje komentarze w kodzie HTML.
 - Obs³uguje u³o¿enie i tabulacje dla ³adniejszego wygl±du kodu HTML.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
