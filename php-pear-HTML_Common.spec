@@ -29,7 +29,7 @@ and attributes handling:
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Klasa PEAR::HTML_Common dostarcza metody do wy¶wietlania kodu html
+Klasa PEAR::HTML_Common dostarcza metody do wy¶wietlania kodu HTML
 oraz obs³ugê atrybutów.
 - Zawiera metody do ustawiania, usuwania, aktualizacji atrybutów HTML.
 - Obs³uguje komentarze w kodzie HTML.
