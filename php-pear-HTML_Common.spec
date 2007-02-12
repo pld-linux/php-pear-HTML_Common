@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - PEAR::HTML_Common is a base class for other HTML classes
-Summary(pl):	%{_pearname} - PEAR::HTML_Common jest podstawow± klas± dla innych klas HTML
+Summary(pl.UTF-8):   %{_pearname} - PEAR::HTML_Common jest podstawowƒÖ klasƒÖ dla innych klas HTML
 Name:		php-pear-%{_pearname}
 Version:	1.2.3
 Release:	1
@@ -30,12 +30,12 @@ and attributes handling:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa PEAR::HTML_Common dostarcza metody do wy∂wietlania kodu HTML
-oraz obs≥ugÍ atrybutÛw.
-- Zawiera metody do ustawiania, usuwania, aktualizacji atrybutÛw HTML.
-- Obs≥uguje komentarze w kodzie HTML.
-- Obs≥uguje u≥oøenie i tabulacje dla ≥adniejszego wygl±du kodu HTML.
+%description -l pl.UTF-8
+Klasa PEAR::HTML_Common dostarcza metody do wy≈õwietlania kodu HTML
+oraz obs≈Çugƒô atrybut√≥w.
+- Zawiera metody do ustawiania, usuwania, aktualizacji atrybut√≥w HTML.
+- Obs≈Çuguje komentarze w kodzie HTML.
+- Obs≈Çuguje u≈Ço≈ºenie i tabulacje dla ≈Çadniejszego wyglƒÖdu kodu HTML.
 
 Ta klasa ma w PEAR status: %{_status}.
 
