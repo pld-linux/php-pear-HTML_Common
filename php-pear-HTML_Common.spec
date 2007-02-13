@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - PEAR::HTML_Common is a base class for other HTML classes
-Summary(pl.UTF-8):   %{_pearname} - PEAR::HTML_Common jest podstawową klasą dla innych klas HTML
+Summary(pl.UTF-8):	%{_pearname} - PEAR::HTML_Common jest podstawową klasą dla innych klas HTML
 Name:		php-pear-%{_pearname}
 Version:	1.2.3
 Release:	1
