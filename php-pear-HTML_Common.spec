@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - PEAR::HTML_Common is a base class for other HTML classes
 Summary(pl.UTF-8):	%{_pearname} - PEAR::HTML_Common jest podstawową klasą dla innych klas HTML
 Name:		php-pear-%{_pearname}
-Version:	1.2.4
-Release:	2
+Version:	1.2.5
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e8a287e6d2099c07aea40a0a843ce596
+# Source0-md5:	e69765be9d5b5932273fe8b213d8c3c0
 URL:		http://pear.php.net/package/HTML_Common/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
